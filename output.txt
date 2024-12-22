@@ -1,0 +1,192 @@
+Running CUDA version...
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input1.txt...
+Number of blocks: 1
+Number of threads: 128
+Memory allocation/setup time: 0.114777 seconds
+Host to Device copy time: 0.000178 seconds
+Device to Host copy time: 0.000060 seconds
+Total memory copy time: 0.000238 seconds
+CUDA execution time: 0.000109 seconds
+Comparing results for input1...
+Test 1 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input2.txt...
+Number of blocks: 1
+Number of threads: 128
+Memory allocation/setup time: 0.081804 seconds
+Host to Device copy time: 0.000038 seconds
+Device to Host copy time: 0.000055 seconds
+Total memory copy time: 0.000093 seconds
+CUDA execution time: 0.000031 seconds
+Comparing results for input2...
+Test 2 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input3.txt...
+Number of blocks: 8
+Number of threads: 128
+Memory allocation/setup time: 0.066759 seconds
+Host to Device copy time: 0.000753 seconds
+Device to Host copy time: 0.002471 seconds
+Total memory copy time: 0.003224 seconds
+CUDA execution time: 0.001014 seconds
+Comparing results for input3...
+Test 3 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input4.txt...
+Number of blocks: 4
+Number of threads: 128
+Memory allocation/setup time: 0.067969 seconds
+Host to Device copy time: 0.000361 seconds
+Device to Host copy time: 0.001040 seconds
+Total memory copy time: 0.001401 seconds
+CUDA execution time: 0.000510 seconds
+Comparing results for input4...
+Test 4 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input5.txt...
+Number of blocks: 133
+Number of threads: 128
+Memory allocation/setup time: 0.066566 seconds
+Host to Device copy time: 0.029227 seconds
+Device to Host copy time: 0.096745 seconds
+Total memory copy time: 0.125972 seconds
+CUDA execution time: 0.044919 seconds
+Comparing results for input5...
+Test 5 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input6.txt...
+Number of blocks: 8
+Number of threads: 128
+Memory allocation/setup time: 0.064585 seconds
+Host to Device copy time: 0.000324 seconds
+Device to Host copy time: 0.000994 seconds
+Total memory copy time: 0.001318 seconds
+CUDA execution time: 0.000417 seconds
+Comparing results for input6...
+Test 6 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input7.txt...
+Number of blocks: 235
+Number of threads: 128
+Memory allocation/setup time: 0.076605 seconds
+Host to Device copy time: 0.042423 seconds
+Device to Host copy time: 0.143178 seconds
+Total memory copy time: 0.185601 seconds
+CUDA execution time: 0.059987 seconds
+Comparing results for input7...
+Test 7 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input8.txt...
+Number of blocks: 938
+Number of threads: 128
+Memory allocation/setup time: 0.067556 seconds
+Host to Device copy time: 0.022217 seconds
+Device to Host copy time: 0.070842 seconds
+Total memory copy time: 0.093059 seconds
+CUDA execution time: 0.030341 seconds
+Comparing results for input8...
+Test 8 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input9.txt...
+Number of blocks: 1563
+Number of threads: 128
+Memory allocation/setup time: 0.084642 seconds
+Host to Device copy time: 0.039105 seconds
+Device to Host copy time: 0.115572 seconds
+Total memory copy time: 0.154677 seconds
+CUDA execution time: 0.052589 seconds
+Comparing results for input9...
+Test 9 passed! The outputs match.
+
+Running ./cuda_bellman_ford on ./bellman_ford_data/input10.txt...
+Number of blocks: 1563
+Number of threads: 128
+Memory allocation/setup time: 0.068364 seconds
+Host to Device copy time: 0.083201 seconds
+Device to Host copy time: 0.251306 seconds
+Total memory copy time: 0.334507 seconds
+CUDA execution time: 0.112184 seconds
+Comparing results for input10...
+Test 10 passed! The outputs match.
+Running OpenMP version...
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input1.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 0.000100 seconds
+Comparing results for input1...
+Test 1 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input2.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 0.000093 seconds
+Comparing results for input2...
+Test 2 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input3.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 0.004119 seconds
+Comparing results for input3...
+Test 3 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input4.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 0.002067 seconds
+Comparing results for input4...
+Test 4 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input5.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 1.628386 seconds
+Comparing results for input5...
+Test 5 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input6.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 0.001670 seconds
+Comparing results for input6...
+Test 6 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input7.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 4.237380 seconds
+Comparing results for input7...
+Test 7 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input8.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 4.730066 seconds
+Comparing results for input8...
+Test 8 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input9.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 14.100566 seconds
+Comparing results for input9...
+Test 9 passed! The outputs match.
+
+Running ./openmp_bellman_ford on ./bellman_ford_data/input10.txt...
+Number of threads: 2
+Scheduling type: static
+Chunk size: 128
+OpenMP execution time: 29.711015 seconds
+Comparing results for input10...
+Test 10 passed! The outputs match.
